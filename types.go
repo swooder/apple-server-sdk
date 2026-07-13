@@ -190,11 +190,11 @@ type NotificationHistoryResponseItem struct {
 }
 
 type ConsumptionRequest struct {
-	ConsumptionPercentage int64  `json:"consumptionPercentage,omitempty"`
-	CustomerConsented     bool   `json:"customerConsented,omitempty"`
-	DeliveryStatus        string `json:"deliveryStatus,omitempty"`
-	SampleContentProvided bool   `json:"sampleContentProvided,omitempty"`
-	RefundPreference      string `json:"refundPreference,omitempty"`
+	ConsumptionPercentage int64  `json:"consumptionPercentage"`
+	CustomerConsented     bool   `json:"customerConsented"`
+	DeliveryStatus        string `json:"deliveryStatus"`
+	SampleContentProvided bool   `json:"sampleContentProvided"`
+	RefundPreference      string `json:"refundPreference"`
 }
 
 type ConsumptionRequestV1 struct {
